@@ -2,219 +2,97 @@
 
 /// An array of questions, and each question is an object with same formats. (colapsed)
 var questionsMaster = [{
-    question: "What is the surname for bastards born in Dorne?",
-    answers: ["Flower", "Stone", "Snow", "Sand"],
-    correctAnswer: "Sand",
-    correctImage: "assets/images/Ellaria-Sand.jpg",
-    correctText: "Sand. (e.g. Ellaria Sand)"
+    question: "In Star Wars: The Rise of Skywalker, who continues to train Rey in the ways of the Jedi after Luke Skywalker is dead?",
+    answers: ["Barris Offre", "Leia Organa", "Plo Koon", "Kylo Ren"],
+    correctAnswer: "Leia Organa",
+    correctImage: "assets/images/leia.jpg",
+    correctText: "Leia Organa"
   },
   {
-    question: "What is the surname for bastards born in the North?",
-    answers: ["Stone", "Sand", "Snow", "Flower"],
-    correctAnswer: "Snow",
+    question: "In Star Wars: The Rise of Skywalker, who does Kylo Ren find alive on the uncharted planet of Exegol?",
+    answers: ["Snoke", "Han Solo", "Luke Skywalker", "Emperor Palpatine"],
+    correctAnswer: "Emperor Palpatine",
+    correctImage: "assets/images/palpatine.jpg",
+    correctText: "Emperor Palpatine"
+  },
+  {
+    question: "In Star Wars: The Rise of Skywalker, what color is Rey’s new lightsaber?",
+    answers: ["Pink", "Red", "Yellow", "Green"],
+    correctAnswer: "Yellow",
+    correctImage: "assets/images/yellow-ls.png",
+    correctText: "Yellow"
+  },
+  {
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
     correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: "Snow. (e.g. Jon Snow)"
+    correctText: ""
   },
   {
-    question: "What is Gregor Clegane's nickname?",
-    answers: [
-      "The Mountain",
-      "The Hound",
-      "The Onion Knight",
-      "The King in the North"
-    ],
-    correctAnswer: "The Mountain",
-    correctImage: "assets/images/the-mountain.jpg",
-    correctText: "The Mountain"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What city is the citadel located in?",
-    answers: ["King's Landing", "Oldtown", "Braavos", "Meereen"],
-    correctAnswer: "Oldtown",
-    correctImage: "assets/images/Old-Town.jpg",
-    correctText: "Old Town"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What city are The Faceless Men based in?",
-    answers: ["Volantis", "King's Landing", "Braavos", "Lannisport"],
-    correctAnswer: "Braavos",
-    correctImage: "assets/images/Braavos.png",
-    correctText: "Braavos"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What item did Samwell Tarly steal from House Tarly before leaving for the Citadel?",
-    answers: ["Sheild", "Sword", "Armor", "Map"],
-    correctAnswer: "Sword",
-    correctImage: "assets/images/heartsbane.jpg",
-    correctText: "Sword. (Heartsbane)"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What was the name of Jon Snow's direwolf?",
-    answers: ["Fang", "Ice", "Whisp", "Ghost"],
-    correctAnswer: "Ghost",
-    correctImage: "assets/images/Ghost.jpg",
-    correctText: "Ghost"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What was the name of the Faceless Man that trains Arya Stark?",
-    answers: ["Jaqen H'ghar", "Syrio Forel", "Sir Davos", "Grey Worm"],
-    correctAnswer: "Jaqen H'ghar",
-    correctImage: "assets/images/Jaqen.jpg",
-    correctText: "Jaqen H'ghar"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "How many of Davos Seaworth's fingers did Stannis Baratheon cut the tops off of?",
-    answers: ["One", "Two", "Three", "Four"],
-    correctAnswer: "Four",
-    correctImage: "assets/images/Davos-fingers.png",
-    correctText: "Four"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What is one of Davos Seaworth's nicknames?",
-    answers: [
-      "Theif of Oldtown",
-      "Davos the Great",
-      "The Onion Knight",
-      "Sir Greybeard"
-    ],
-    correctAnswer: "The Onion Knight",
-    correctImage: "assets/images/Onion-knight.jpg",
-    correctText: "The Onion Knight"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
   {
-    question: "What is the name of Arya Stark's direwolf?",
-    answers: ["Grey Tooth", "White Face", "Guinevere", "Nymeria"],
-    correctAnswer: "Nymeria",
-    correctImage: "assets/images/Nymeria.png",
-    correctText: "Nymeria"
+    question: "",
+    answers: ["", "", "", ""],
+    correctAnswer: "",
+    correctImage: "assets/images/Jon-Snow.jpg",
+    correctText: ""
   },
-  {
-    question: "What is the name of the disease that scarred half of Shireen Baratheon's face?",
-    answers: ["Stone Face", "Greyscale", "Stonescale", "Grey Face"],
-    correctAnswer: "Greyscale",
-    correctImage: "assets/images/greyscale.jpg",
-    correctText: "Greyscale"
-  },
-  {
-    question: "What is Prince Oberyn Martell's nickname?",
-    answers: ["The Viper", "The Red Serpent", "The Red Viper", "The Viper"],
-    correctAnswer: "The Red Viper",
-    correctImage: "assets/images/oberyn.jpeg",
-    correctText: "The Red Viper"
-  },
-  {
-    question: "What character has the nickname Blackfish?",
-    answers: [
-      "Brynden Tully",
-      "Robert Baratheon",
-      "Sandor Clegane",
-      "Petyr Baelish"
-    ],
-    correctAnswer: "Brynden Tully",
-    correctImage: "assets/images/blackfish.jpg",
-    correctText: "Brynden Tully"
-  },
-  {
-    question: "What character has the nickname Littlefinger?",
-    answers: [
-      "Brynden Tully",
-      "Robert Baratheon",
-      "Sandor Clegane",
-      "Petyr Baelish"
-    ],
-    correctAnswer: "Petyr Baelish",
-    correctImage: "assets/images/baelish.jpeg",
-    correctText: "Petyr Baelish"
-  },
-  {
-    question: "What character has the nickname Kingslayer?",
-    answers: [
-      "Brynden Tully",
-      "Robert Baratheon",
-      "Jaime Lannister",
-      "Petyr Baelish"
-    ],
-    correctAnswer: "Jaime Lannister",
-    correctImage: "assets/images/kingslayer.jpeg",
-    correctText: "Jaime Lannister"
-  },
-  {
-    question: "What is the name of House Lannister's castle/stronghold?",
-    answers: ["Highgarden", "Casterly Rock", "Winterfell", "Harrenhal"],
-    correctAnswer: "Casterly Rock",
-    correctImage: "assets/images/casterly.png",
-    correctText: "Casterly Rock"
-  },
-  {
-    question: "What is the name of House Tully's castle/stronghold?",
-    answers: ["Highgarden", "Casterly Rock", "Riverrun", "The Red Keep"],
-    correctAnswer: "Riverrun",
-    correctImage: "assets/images/riverrun.jpg",
-    correctText: "Riverrun"
-  },
-  {
-    question: "What character had the nickname of King Beyond the Wall?",
-    answers: ["Robert Baratheon", "Jeor Mormont", "Jon Snow", "Mance Rayder"],
-    correctAnswer: "Mance Rayder",
-    correctImage: "assets/images/rayder.jpg",
-    correctText: "Mance Rayder"
-  },
-  {
-    question: "What is the name of the man who stole Daenerys Targaryen's dragons in Qarth?",
-    answers: ["Pyat Pree", "Daario Naharis", "Jojen Reed", "Alliser Thorne"],
-    correctAnswer: "Pyat Pree",
-    correctImage: "assets/images/pyat.jpeg",
-    correctText: "Pyat Pree"
-  },
-  {
-    question: "How many times was Beric Dondarrion brought back to life?",
-    answers: ["Four", "Five", "Six", "Seven"],
-    correctAnswer: "Six",
-    correctImage: "assets/images/beric.jpg",
-    correctText: "Six"
-  },
-  {
-    question: "Who helped Sansa escape King's Landing after King Joffrey's death?",
-    answers: ["Theon Greyjoy", "Lord Varys", "Tyrion Lannister", "Dontos Hollard"],
-    correctAnswer: "Dontos Hollard",
-    correctImage: "assets/images/dontos.jpg",
-    correctText: "Dontos Hollard"
-  },
-  {
-    question: "What does the high valyrian saying of the Faceless Men, 'valar morghulis,' mean?",
-    answers: ["All men must serve", "All men will die", "All men must die", "All that serve must die"],
-    correctAnswer: "All men must die",
-    correctImage: "assets/images/valar.jpg",
-    correctText: "All men must die"
-  },
-  {
-    question: "What is the name of the special metal that can kill white walkers?",
-    answers: ["Wildling steel", "Volantis steel", "Dragon steel", "Valyrian steel"],
-    correctAnswer: "Valyrian steel",
-    correctImage: "assets/images/longclaw.jpg",
-    correctText: "Valyrian steel"
-  },
-  {
-    question: "What is the name of the sword that Lord Commander Mormont gives to Jon Snow?",
-    answers: ["Longclaw", "Longfang", "Wolf's Bane", "White Fang"],
-    correctAnswer: "Longclaw",
-    correctImage: "assets/images/longclaw.jpg",
-    correctText: "Longclaw"
-  },
-  {
-    question: "How many times was Sansa Stark married?",
-    answers: ["One", "Two", "Three", "Four"],
-    correctAnswer: "Two",
-    correctImage: "assets/images/sansa.png",
-    correctText: "Two"
-  },
-  {
-    question: "What is Jon Snow's tru bloodline?",
-    answers: ["Fray", "Baratheon", "Lannister", "Targaryen"],
-    correctAnswer: "Targaryen",
-    correctImage: "assets/images/jon.jpeg",
-    correctText: "Targaryen"
-  }
+
 ];
 
 var playAgainButtonHTML =
@@ -395,7 +273,7 @@ $(".button").on("click", "#start", function () {
   $(".button").css("display", "none");
   $(".timer").html(timerAmount);
   runTimer();
-  playAudio();
+  // playAudio();
   question(0);
   questionsPlaying.splice(0, 1);
   questionsLeft--;
