@@ -23,73 +23,136 @@ var questionsMaster = [{
     correctText: "Yellow"
   },
   {
+    question: "In Star Wars: The Rise of Skywalker, what does Rey say her last name is at the end of the movie?",
+    answers: ["Skywalker", "Palpatine", "Organa", "Solo"],
+    correctAnswer: "Skywalker",
+    correctImage: "assets/images/yellow-ls.png",
+    correctText: "Skywalker"
+  },
+  {
+    question: "In Star Wars: The Rise of Skywalker, whose lightsaber does Luke’s spirit give to Rey?",
+    answers: ["Yoda’s", "Leia’s", "Ben’s", "Obi-Wan’s"],
+    correctAnswer: "Leia’s",
+    correctImage: "assets/images/light-saber.png",
+    correctText: "Leia’s"
+  },
+  {
+    question: "In Star Wars: The Rise of Skywalker, who kills Palpatine?",
+    answers: ["Finn", "Rey", "Ben", "Poe"],
+    correctAnswer: "Rey",
+    correctImage: "assets/images/rey2.jpg",
+    correctText: "Rey"
+  },
+  {
+    question: "In Star Wars: The Rise of Skywalker, what is the name of the devices that are used to find the hidden planet of Exegol?",
+    answers: ["Trailblazers", "Coursefinders", "Pathfinders", "Wayfinders"],
+    correctAnswer: "Wayfinders",
+    correctImage: "assets/images/wayfinder.jpeg",
+    correctText: "Wayfinders"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, at the beginning of the movie what prank did Rodrick pull on Greg?",
+    answers: ["Put chewed up bubblegum in all of his shoes", "Tied his shoelaces together under the table", "Convinced him he was very late for his first day of school", "Told him he won the lottery"],
+    correctAnswer: "Convinced him he was very late for his first day of school",
+    correctImage: "assets/images/greg.jpg",
+    correctText: "Late for first day"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what activity did Greg first sign up for, in an attempt to become popular in middle school?",
+    answers: ["Wrestling", "Debate Team", "Football", "Soccer"],
+    correctAnswer: "Wrestling",
+    correctImage: "assets/images/wrestling.jpg",
+    correctText: "Wrestling"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what was the name of Rodrick's band?",
+    answers: ["The Gremlins", "Rodrick’s Rockers", "The Kids on the Block", "Loded Diper"],
+    correctAnswer: "Loded Diper",
+    correctImage: "assets/images/rock.jpg",
+    correctText: "Loded Diper"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what did Greg's father do on Halloween?",
+    answers: ["Stole candy from the neighborhood kids", "Guarded the house against TP’ers", "Threw a huge halloween party", "Went trick-or-treating with Greg and Rowley"],
+    correctAnswer: "Guarded the house against TP’ers",
+    correctImage: "assets/images/halloween.jpg",
+    correctText: "Guarded the house against TP’ers"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what did Greg and Rowley have to do as Safety Patrol Officers?",
+    answers: ["Pick up garbage in the schoolyard", "Patrol the school bake sale", "Walk the kindergarten students home", "Keep the third graders out of trouble"],
+    correctAnswer: "Walk the kindergarten students home",
+    correctImage: "assets/images/safety.jpg",
+    correctText: "Walk the kindergarten students home"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, during a sleepover at Fregley's house, where did Greg sleep for a while?",
+    answers: ["In the bathtub", "In the kitchen", "In the attic", "On the roof"],
+    correctAnswer: "In the bathtub",
+    correctImage: "assets/images/tub.jpg",
+    correctText: "In the bathtub"
+  },
+  {
+    question: "In Diary of a Wimpy Kid,  at auditions for the school play, what song did the director make the kids sing for their audition?",
+    answers: ["Born to Be Wild", "Like a Virgin", "We Will Rock You", "Total Eclipse of the Heart"],
+    correctAnswer: "Total Eclipse of the Heart",
+    correctImage: "assets/images/audition.jpg",
+    correctText: "Total Eclipse of the Heart"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what part did Greg play in the school play, 'The Wizard of Oz'?",
+    answers: ["He was Dorothy", "He was a tree", "He was the Scarecrow", "He was a flying monkey"],
+    correctAnswer: "He was a tree",
+    correctImage: "assets/images/tree.jpg",
+    correctText: "He was a tree"
+  },
+  {
+    question: "In Diary of a Wimpy Kid, what nice thing did Greg do for Rowley at the end of the movie, allowing them to become friends again?",
+    answers: ["Greg let Rowley have his favorite toy", "Greg let Rowley ride his bike", "Greg told everyone that he was the one who ate the gross cheese", "Greg let Rowley win at video games"],
+    correctAnswer: "Greg told everyone that he was the one who ate the gross cheese",
+    correctImage: "assets/images/cheese.jpg",
+    correctText: "Gross cheese"
+  },
+  {
+    question: "In Frozen, what is the name of the kingdom that Elsa and Anna live in?",
+    answers: ["Farendelle", "Brendenville", "Arentown", "Arendelle"],
+    correctAnswer: "Arendelle",
+    correctImage: "assets/images/arendelle.jpg",
+    correctText: "Arendelle"
+  },
+  {
     question: "",
     answers: ["", "", "", ""],
     correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
+    correctImage: "assets/images/tub.jpg",
     correctText: ""
   },
   {
     question: "",
     answers: ["", "", "", ""],
     correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
+    correctImage: "assets/images/tub.jpg",
     correctText: ""
   },
   {
     question: "",
     answers: ["", "", "", ""],
     correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
+    correctImage: "assets/images/tub.jpg",
     correctText: ""
   },
   {
     question: "",
     answers: ["", "", "", ""],
     correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
+    correctImage: "assets/images/tub.jpg",
     correctText: ""
   },
   {
     question: "",
     answers: ["", "", "", ""],
     correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: ""
-  },
-  {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: ""
-  },
-  {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: ""
-  },
-  {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: ""
-  },
-  {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
-    correctText: ""
-  },
-  {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/Jon-Snow.jpg",
+    correctImage: "assets/images/tub.jpg",
     correctText: ""
   },
 
