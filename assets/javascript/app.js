@@ -156,7 +156,7 @@ var questionsMaster = [{
     correctText: "Sven"
   },
   {
-    question: "In Frozen, what doe Anna give to Kristoff for his reindeer to get hime to help her?",
+    question: "In Frozen, what does Anna give to Kristoff for his reindeer to get him to help her?",
     answers: ["Berries", "Carrots", "Apples", "Hay"],
     correctAnswer: "Carrots",
     correctImage: "assets/images/sven.jpeg",
@@ -200,7 +200,7 @@ var questionsLeftMaster = 20;
 var questionsLeft;
 var correcAnswerCount = 0;
 var incorrectAnswerCount = 0;
-var masterTimerAmount = 20;
+var masterTimerAmount = 30;
 var timerAmount;
 var masterAnswerTimerAmount = 3;
 var answerTimerAmount;
