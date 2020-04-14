@@ -121,40 +121,69 @@ var questionsMaster = [{
     correctText: "Arendelle"
   },
   {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/tub.jpg",
-    correctText: ""
+    question: "In Frozen, what other Disney princess is seen when they open the gates in the song “For The First Time In Forever”?",
+    answers: ["Rapunzel", "Cinderella", "Snow White", "Aurora"],
+    correctAnswer: "Rapunzel",
+    correctImage: "assets/images/rapunzel.jpg",
+    correctText: "Rapunzel"
   },
   {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/tub.jpg",
-    correctText: ""
+    question: "In Frozen, what is the name of the prince that Anna marries?",
+    answers: ["Prince Franz", "Prince Olaf", "Prince Zander", "Prince Hans"],
+    correctAnswer: "Prince Hans",
+    correctImage: "assets/images/hans.jpg",
+    correctText: "Prince Hans"
   },
   {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/tub.jpg",
-    correctText: ""
+    question: "In Frozen, what does Kristoff sell for a living?",
+    answers: ["Snowmen", "Sleds", "Ice", "Clothes"],
+    correctAnswer: "Ice",
+    correctImage: "assets/images/ice.png",
+    correctText: "Ice"
   },
   {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/tub.jpg",
-    correctText: ""
+    question: "In Frozen, the Anna and Kristoff run into Olaf, what does Olaf say he likes?",
+    answers: ["Ice skating", "Snowball fights", "Warm hugs", "Snowflakes"],
+    correctAnswer: "Warm hugs",
+    correctImage: "assets/images/olaf.jpg",
+    correctText: "Warm hugs"
   },
   {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    correctImage: "assets/images/tub.jpg",
-    correctText: ""
+    question: "In Frozen, what is the name of Kristoff’s reindeer?",
+    answers: ["Sven", "Steve", "Sorren", "Hans"],
+    correctAnswer: "Sven",
+    correctImage: "assets/images/sven.jpeg",
+    correctText: "Sven"
   },
+  {
+    question: "In Frozen, what doe Anna give to Kristoff for his reindeer to get hime to help her?",
+    answers: ["Berries", "Carrots", "Apples", "Hay"],
+    correctAnswer: "Carrots",
+    correctImage: "assets/images/sven.jpeg",
+    correctText: "Carrots"
+  },
+  {
+    question: "In Frozen, what is the name of the snowman?",
+    answers: ["Olsen", "Oliver", "Olaf", "Oscar"],
+    correctAnswer: "Olaf",
+    correctImage: "assets/images/olaf.jpg",
+    correctText: "Olaf"
+  },
+  {
+    question: "In Playing With Fire, what is the name of the John Cena’s character, referred to as “Supe”?",
+    answers: ["Jason Cardly", "Jeff Cardin", "John Carlton", "Jake Carson"],
+    correctAnswer: "Jake Carson",
+    correctImage: "assets/images/supe.jpeg",
+    correctText: "Jake Carson"
+  },
+  {
+    question: "In Playing With Fire, what does Brynn spill all over the driveway to stop the guys from following them when she steals the ATV?",
+    answers: ["Oil", "Jello", "Dish soap", "Bacon grease"],
+    correctAnswer: "Oil",
+    correctImage: "assets/images/brynn.jpg",
+    correctText: "Oil"
+  },
+
 
 ];
 
@@ -300,7 +329,6 @@ function setLogo() {
 function displayCorrImage() {
   $(".question").empty();
   $(".answers").empty();
-  // $(".qa-container").css("background-image", "url(" + currentCorrImage + ")");
   $(".qa-container").css({
     "background-image": "url(" + currentCorrImage + ")",
     "box-shadow": "8px 8px 4px black",
@@ -313,12 +341,14 @@ function clearDisplay() {
   $(".question").empty();
   $(".answers").empty();
   $(".qa-container").css("background-image", "");
+  $("#logo").empty();
 }
 
 // function to display "Correct" in place of timer.
 function displayCorrText() {
   $(".answers").empty();
-  $(".answers").html(currentCorrText);
+
+  $("#logo").html(currentCorrText);
 }
 
 /////// the game "nuts and bolts."  ////////////
