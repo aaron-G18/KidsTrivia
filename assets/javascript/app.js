@@ -487,7 +487,6 @@ $(".answers").on("click", "#playagain", function () {
   $(".replay-button").css("display", "none");
   $(".timer").html(timerAmount);
   runTimer();
-  playAudio();
   question(0);
   questionsPlaying.splice(0, 1);
   questionsLeft--;
