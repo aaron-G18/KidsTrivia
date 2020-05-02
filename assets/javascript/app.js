@@ -128,7 +128,7 @@ var questionsMaster = [{
     correctText: "Rapunzel"
   },
   {
-    question: "In Frozen, what is the name of the prince that Anna marries?",
+    question: "In Frozen, what is the name of the prince that asks Anna to marry him?",
     answers: ["Prince Franz", "Prince Olaf", "Prince Zander", "Prince Hans"],
     correctAnswer: "Prince Hans",
     correctImage: "assets/images/hans.jpg",
@@ -186,6 +186,7 @@ var questionsMaster = [{
 
 
 ];
+
 
 var playAgainButtonHTML =
   "<div class='replay-button'><button id='playagain'>Play Again</button></div>";
